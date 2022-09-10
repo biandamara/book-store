@@ -1,0 +1,22 @@
+.backgorund {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.top {
+  background-color: #e3f2fd;
+  height: 300px;
+}
+
+.jumbotron {
+  height: 340px;
+  margin-bottom: 150px;
+  z-index: 1;
+}
+
+.people {
+  width: 100%;
+}

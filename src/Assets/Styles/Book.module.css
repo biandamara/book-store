@@ -1,0 +1,25 @@
+.title {
+  margin: 20px 20px 20px 0;
+}
+
+.card {
+  width: 170px;
+}
+
+.category {
+  font-size: 14px;
+}
+
+.headlight {
+  font-size: 14px;
+  font-weight: bold;
+  color: blue;
+  margin: 0;
+}
+
+.disable {
+  font-size: 12px;
+  text-decoration: line-through;
+  color: grey;
+  margin: 0;
+}
