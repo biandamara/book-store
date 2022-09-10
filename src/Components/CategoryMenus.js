@@ -15,7 +15,7 @@ function CategoryMenus() {
             <hr />
           </div>
 
-          <div className={`justify-content-start ${css.card}`}>
+          <div className="justify-content-start">
             {/* navigation bar start */}
             <Nav className="row text-left" vertical>
               {/* navigation item start */}
