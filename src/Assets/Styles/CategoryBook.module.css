@@ -1,0 +1,14 @@
+.title {
+  margin: 20px 0 20px 0;
+}
+
+.imgrow img {
+  width: 50px;
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+.imgrow p {
+  margin: 20px 0 20px 0;
+}

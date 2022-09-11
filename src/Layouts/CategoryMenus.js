@@ -1,77 +1,55 @@
 import React from "react";
 import { Nav, NavItem, NavLink } from "reactstrap";
 
-// import styles
-import css from "../Assets/Styles/CategoryMenus.module.css";
-
 function CategoryMenus() {
   return (
     <>
-      <div className="container">
+      <div>
         {/* side navagation start */}
-        <div className={css.container}>
-          <div className={`text-left ${css.title}`}>
-            <h3>Category</h3>
-            <hr />
-          </div>
+        <h3>Category</h3>
+        <hr />
+        <div className="justify-content-start">
+          {/* navigation bar start */}
+          <Nav vertical>
+            {/* navigation item start */}
+            <NavItem>
+              <NavLink href="/happiness-mindfulness">
+                Happiness & Mindfulness
+              </NavLink>
+            </NavItem>
 
-          <div className="justify-content-start">
-            {/* navigation bar start */}
-            <Nav className="row text-left" vertical>
-              {/* navigation item start */}
-              <NavItem>
-                <NavLink className="col" href="/happiness-mindfulness">
-                  Happiness & Mindfulness
-                </NavLink>
-              </NavItem>
+            <NavItem>
+              <NavLink href="#">Career & Business</NavLink>
+            </NavItem>
 
-              <NavItem>
-                <NavLink className="col" href="#">
-                  Career & Business
-                </NavLink>
-              </NavItem>
+            <NavItem>
+              <NavLink href="#">Productivity & Time Management</NavLink>
+            </NavItem>
 
-              <NavItem>
-                <NavLink className="col" href="#">
-                  Productivity & Time Management
-                </NavLink>
-              </NavItem>
+            <NavItem>
+              <NavLink href="#">Society & Politics</NavLink>
+            </NavItem>
 
-              <NavItem>
-                <NavLink className="col" href="#">
-                  Society & Politics
-                </NavLink>
-              </NavItem>
+            <NavItem>
+              <NavLink href="#">Investment & Finance</NavLink>
+            </NavItem>
 
-              <NavItem>
-                <NavLink className="col" href="#">
-                  Investment & Finance
-                </NavLink>
-              </NavItem>
+            <NavItem>
+              <NavLink href="#">Art & Design</NavLink>
+            </NavItem>
 
-              <NavItem>
-                <NavLink className="col" href="#">
-                  Art & Design
-                </NavLink>
-              </NavItem>
+            <NavItem>
+              <NavLink href="#">Science & Fiction</NavLink>
+            </NavItem>
 
-              <NavItem>
-                <NavLink className="col" href="#">
-                  Science & Fiction
-                </NavLink>
-              </NavItem>
-
-              <NavItem>
-                <NavLink className="col" href="#">
-                  Technology
-                </NavLink>
-              </NavItem>
-              {/* navigation item end */}
-            </Nav>
-            {/* navigation bar end */}
-          </div>
-          {/* side navagation end */}
+            <NavItem>
+              <NavLink href="#">Technology</NavLink>
+            </NavItem>
+            {/* navigation item end */}
+          </Nav>
+          {/* navigation bar end */}
         </div>
+        {/* side navagation end */}
       </div>
     </>
   );
