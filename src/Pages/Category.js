@@ -2,7 +2,7 @@ import React from "react";
 
 // import component
 import Navigation from "../Layouts/Navigation";
-import CategoryMenus from "../Components/CategoryMenus";
+import CategoryMenus from "../Layouts/CategoryMenus";
 
 function Category() {
   return (

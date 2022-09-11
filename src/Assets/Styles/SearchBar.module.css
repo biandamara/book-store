@@ -1,4 +1,4 @@
-.search-input {
+.searchinput {
   width: 100%;
   padding: 12px 24px;
 
@@ -21,14 +21,14 @@
   transform-style: preserve-3d;
 }
 
-.search-input::placeholder {
+.searchinput::placeholder {
   color: color(#575756 a(0.8));
   text-transform: uppercase;
   letter-spacing: 1.5px;
 }
 
-.search-input:hover,
-.search-input:focus {
+.searchinput:hover,
+.searchinput:focus {
   padding: 12px 0;
   outline: 0;
   border: 1px solid transparent;

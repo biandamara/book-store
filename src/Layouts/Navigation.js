@@ -3,7 +3,7 @@ import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from "reactstrap";
 
 // import component
 // import DropMenu from "../Components/Dropdown";
-import Search from "../Components/Search";
+import SearchBar from "../Components/SearchBar";
 
 // import assets
 import LogoBrand from "../Assets/Images/logo-brand.png";
@@ -36,7 +36,7 @@ function Navigation() {
                 <NavItem className="d-flex justify-content-center">
                   <NavLink>{/* <DropMenu /> */}</NavLink>
                   <NavLink className="flex-fill">
-                    <Search />
+                    <SearchBar />
                   </NavLink>
                 </NavItem>
               </Nav>
@@ -51,11 +51,11 @@ function Navigation() {
                 </NavItem>
 
                 <NavItem className="col">
-                  <NavLink href="/">Bookmark</NavLink>
+                  <NavLink href="/bookmark">Bookmark</NavLink>
                 </NavItem>
 
                 <NavItem className="col">
-                  <NavLink href="/">Login</NavLink>
+                  <NavLink href="/login">Login</NavLink>
                 </NavItem>
               </Nav>
             </div>

@@ -10,7 +10,7 @@ function CategoryMenus() {
       <div className="container">
         {/* side navagation start */}
         <div className={css.container}>
-          <div className="text-left">
+          <div className={`text-left ${css.title}`}>
             <h3>Category</h3>
             <hr />
           </div>
@@ -20,7 +20,7 @@ function CategoryMenus() {
             <Nav className="row text-left" vertical>
               {/* navigation item start */}
               <NavItem>
-                <NavLink className="col" href="#">
+                <NavLink className="col" href="/happiness-mindfulness">
                   Happiness & Mindfulness
                 </NavLink>
               </NavItem>

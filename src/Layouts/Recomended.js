@@ -1,12 +1,5 @@
 import React from "react";
 
-// import componest
-import BusinessBook from "../Components/Card/BusinessBook";
-import FinanceBook from "../Components/Card/FinanceBook";
-import HappinessBook from "../Components/Card/HappinessBook";
-import PoliticsBook from "../Components/Card/PoliticsBook";
-import ProductivityBook from "../Components/Card/ProductivityBook";
-
 // import styles
 import "bootstrap/dist/css/bootstrap.min.css";
 import css from "../Assets/Styles/Recomended.module.css";
@@ -26,33 +19,23 @@ function Recomended() {
         {/* books bar start */}
         <div className="row">
           {/* book 01 start */}
-          <div className="col">
-            <BusinessBook />
-          </div>
+          <div className="col"></div>
           {/* book 01 end */}
 
           {/* book 02 start */}
-          <div className="col">
-            <FinanceBook />
-          </div>
+          <div className="col"></div>
           {/* book 02 end */}
 
           {/* book 03 start */}
-          <div className="col">
-            <HappinessBook />
-          </div>
+          <div className="col"></div>
           {/* book 03 end */}
 
           {/* book 04 start */}
-          <div className="col">
-            <PoliticsBook />
-          </div>
+          <div className="col"></div>
           {/* book 04 end */}
 
           {/* book 05 start */}
-          <div className="col">
-            <ProductivityBook />
-          </div>
+          <div className="col"></div>
           {/* book 05 end */}
 
           {/* book 06 start */}
