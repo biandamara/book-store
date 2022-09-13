@@ -24,11 +24,19 @@ function Jumbotron() {
             <div className="col d-flex justify-content-center">
               {/* quotes start */}
               <div className="container row">
-                <div className="p-2 text-end">
+                <div
+                  className="p-2 text-end"
+                  data-aos="zoom-in"
+                  data-aos-duration="1000"
+                >
                   <h2>“A room without books is like a body without a soul.”</h2>
                   <p>― Marcus Tullius Cicero</p>
                 </div>
-                <div className="p-2 text-end">
+                <div
+                  className="p-2 text-end"
+                  data-aos="zoom-in"
+                  data-aos-duration="2000"
+                >
                   <h2>
                     “Good friends, good books, and a sleepy conscience: this is
                     the ideal life.”

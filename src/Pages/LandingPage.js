@@ -14,7 +14,9 @@ function Landing() {
       <Jumbotron />
       <Category />
       {/* <Recomended /> */}
-      <Footer />
+      <div>
+        <Footer />
+      </div>
     </>
   );
 }
