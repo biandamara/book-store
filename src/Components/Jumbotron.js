@@ -10,7 +10,7 @@ import css from "../Assets/Styles/Jumbotron.module.css";
 function Jumbotron() {
   return (
     <>
-      <div className={css.posisiton}>
+      <div>
         {/* background start */}
         <div className={css.backgorund}>
           <div className={css.top}></div>

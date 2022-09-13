@@ -1,0 +1,15 @@
+.container {
+  margin-top: 30px;
+  padding: 25px;
+  background-color: #e3f2fd;
+}
+
+.container p {
+  padding: 0;
+  margin: 0;
+}
+
+.icon img {
+  height: 25px;
+  margin: 0 10px 0;
+}

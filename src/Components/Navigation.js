@@ -34,7 +34,6 @@ function Navigation() {
             <div className="col-6">
               <Nav navbar>
                 <NavItem className="d-flex justify-content-center">
-                  <NavLink>{/* <DropMenu /> */}</NavLink>
                   <NavLink className="flex-fill">
                     <SearchBar />
                   </NavLink>

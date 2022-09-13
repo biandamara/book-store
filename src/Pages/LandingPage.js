@@ -1,10 +1,11 @@
 import React from "react";
 
 // import components
-import Navigation from "../Layouts/Navigation";
-import Jumbotron from "../Layouts/Jumbotron";
-import Category from "../Layouts/CategoryBooks";
-import Recomended from "../Layouts/Recomended";
+import Navigation from "../Components/Navigation";
+import Jumbotron from "../Components/Jumbotron";
+import Category from "../Components/CategoryBooks";
+import Recomended from "../Components/Recomended";
+import Footer from "../Components/Footer";
 
 function Landing() {
   return (
@@ -12,7 +13,8 @@ function Landing() {
       <Navigation />
       <Jumbotron />
       <Category />
-      <Recomended />
+      {/* <Recomended /> */}
+      <Footer />
     </>
   );
 }
