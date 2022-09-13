@@ -9,6 +9,9 @@ import Bookmark from "./Pages/BookmarkPage";
 import Login from "./Pages/LoginPage";
 import Register from "./Pages/RegisterPage";
 
+// import styles
+import "mdb-react-ui-kit/dist/css/mdb.min.css";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
