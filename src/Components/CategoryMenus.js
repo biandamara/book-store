@@ -13,9 +13,7 @@ function CategoryMenus() {
           <Nav vertical>
             {/* navigation item start */}
             <NavItem>
-              <NavLink href="/happiness-mindfulness">
-                Happiness & Mindfulness
-              </NavLink>
+              <NavLink href="#">Happiness & Mindfulness</NavLink>
             </NavItem>
 
             <NavItem>

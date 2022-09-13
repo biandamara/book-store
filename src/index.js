@@ -6,6 +6,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Landing from "./Pages/LandingPage";
 import Category from "./Pages/CategoryPage";
 import Bookmark from "./Pages/BookmarkPage";
+import Login from "./Pages/LoginPage";
+import Register from "./Pages/RegisterPage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,6 +16,8 @@ root.render(
       <Route path="/" element={<Landing />} />
       <Route path="/category" element={<Category />} />
       <Route path="/bookmark" element={<Bookmark />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/register" element={<Register />} />
     </Routes>
   </BrowserRouter>
 );

@@ -44,8 +44,8 @@ function Navigation() {
 
             {/* account start */}
             <div className="col">
-              <Nav className="row d-flex justify-content-end">
-                <NavItem className="col">
+              <Nav className="row text-center">
+                <NavItem className="col ">
                   <NavLink href="/category">Category</NavLink>
                 </NavItem>
 
@@ -53,7 +53,7 @@ function Navigation() {
                   <NavLink href="/bookmark">Bookmark</NavLink>
                 </NavItem>
 
-                <NavItem className="col">
+                <NavItem className={`col ${css.login}`}>
                   <NavLink href="/login">Login</NavLink>
                 </NavItem>
               </Nav>
