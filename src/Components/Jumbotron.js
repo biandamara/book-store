@@ -21,9 +21,9 @@ function Jumbotron() {
         {/* jumbotron start */}
         <div className="container">
           <div className={`row align-items-center ${css.jumbotron}`}>
+            {/* quotes start */}
             <div className="col d-flex justify-content-center">
-              {/* quotes start */}
-              <div className="container row">
+              <div className={`container row ${css.quotes}`}>
                 <div
                   className="p-2 text-end"
                   data-aos="zoom-in"
@@ -32,6 +32,7 @@ function Jumbotron() {
                   <h2>“A room without books is like a body without a soul.”</h2>
                   <p>― Marcus Tullius Cicero</p>
                 </div>
+
                 <div
                   className="p-2 text-end"
                   data-aos="zoom-in"
@@ -44,14 +45,16 @@ function Jumbotron() {
                   <p>― Mark Twain</p>
                 </div>
               </div>
-              {/* quotes end */}
             </div>
+            {/* quotes end */}
+
+            {/* image start */}
             <div className="col d-flex justify-content-center">
               <img className={css.people} src={People} alt="pople" />
             </div>
+            {/* image end */}
           </div>
         </div>
-
         {/* jumbotron end */}
       </div>
     </>

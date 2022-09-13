@@ -23,3 +23,9 @@
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 20px;
 }
+
+@media (max-width: 575.98px) {
+  NavbarBrand img {
+    hide: 1;
+  }
+}
